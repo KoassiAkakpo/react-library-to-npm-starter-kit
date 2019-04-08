@@ -1,0 +1,30 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.loader {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spinner {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 10px solid #dbdbdb;
+  animation: spinner linear 1.3s infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
