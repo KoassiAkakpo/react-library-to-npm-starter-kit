@@ -7,7 +7,6 @@ const MyAwesomeComponent = ({ spinnerColor }) => {
         className="spinner"
         style={{ borderTop: `10px solid ${spinnerColor}` }}
       />
-      <span style={{ marginTop: "5px" }}>Loading ...</span>
     </div>
   );
 };
